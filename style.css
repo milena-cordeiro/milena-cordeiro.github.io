@@ -2,6 +2,7 @@ body {
     background-color: rosybrown;
     color: black;
     padding: 60px;
+    scroll-behavior: smooth;
 }
 .descrição {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
