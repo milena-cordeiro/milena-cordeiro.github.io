@@ -1,27 +1,70 @@
 body {
-    background-color: rgb(165, 66, 66);
-    color: whitesmoke;
+    background-color: rosybrown;
+    color: black;
+    padding: 60px;
 }
-.meunome, .descrição {
+.descrição {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.meunome{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     text-align: center;
 }
+
 em {
-    font-size: 25px;
+    font-size: 18px;
     color: antiquewhite;
 }
-#foto {
-    border-radius: 20px;
 
-}
-h2,h3, ul {
+h3, ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blanchedalmond;
-    text-align: center;
+    text-align: justify;
 }
+
+h2 {
+    text-align: justify;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+
 .aprender {font-size: 18px;}
 .colaborar {font-size: 20px;}
 .dedicação {font-size: 22px;}
 .comprometimento {font-size: 24px;}
 .seriedade {font-size: 26px;}
+
+#foto {
+    float: left;
+    height: 380px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.514);
+    margin-left: 40px;
+}
+.img-container {
+    height: 400px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.text-descript {
+  height: 200px;
+  width: 600px;
+  margin-left: 400px;
+  margin-top: 40px;
+}
+
+ul li:nth-child(odd) {
+    background-color: brown;
+}
+
+ul li:hover {
+    text-transform: uppercase;
+}
