@@ -1,37 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portifólio Web</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Milena - Portfólio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Arquivo CSS para estilização -->
 </head>
 <body>
-<div>
-    <div>
-        <h1 class="meunome">Milena Cordeiro dos Santos</h1>
-    </div>
-        <div class="img-container">
-            <img src="profile.jpg" width="300px" alt="eu sorrindo" id="foto">
-            <br><h2>Um pouco sobre mim...</h2>
-             <div class="text-descript">
-                <p class="descrição"><em>Sou paulista, tenho 24 anos, nascida em <strong>São Bernardo do Campo</strong>.
-                <br>Atualmente moro em <strong>Piracicaba, interior de São Paulo</strong>.<br>Sou formada em administração, trabalhei com RH durante 2 anos. <br> E no momento estou em transição de carreira para a area de tecnologia.</em></p>
-             </div>
+    <header>
+        <h1>Milena Cordeiro dos Santos</h1>
+        <h2>Desenvolvedora de Software</h2>
+        <p>Estudante de desenvolvimento web full stack na Trybe. Tenho 24 anos, moro no interior de São Paulo e estou em transição de carreira.</p>
+    </header>
+    <h2 class="projects-title">Projetos</h2>
+    <section id="projects">
+        <div class="project">
+            <h3>Pixel Art</h3>
+            <p>Editor de arte com pixels que permite o usuário pintar o que quiser no quadro.
+                Este projeto foi desenvolvido com JavaScript e manipulação de DOM</p>
+            <img src="pixelArt.png" alt="Captura de tela do Projeto 1"><br>
+            <a href="https://milena-cordeiro.github.io/projetos/pixel-Art/" target="_blank">Ver Projeto</a>
         </div>
-</div>
-    <hr>
-    <h3>Minhas principais habilidades:</h3>
-    <ul>
-        <li class="aprender"><strong>Facilidade em aprender;</strong></li>
-        <li class="colaborar">Colaborar em trabalho de equipe;</li>
-        <li class="dedicação">Dedicação;</li>
-        <li class="comprometimento"><strong>Comprometimento;</strong></li>
-        <li class="seriedade">Seriedade.</li>
-    </ul>
-    <hr>
-    <a href="https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1" target="_parent">Aqui onde comecei aprender JavaScript</a> <br>
-    <a href="#foto">volte na minha foto</a>
+
+        <div class="project">
+            <h3>Solar System</h3>
+            <p>Meu primeiro projeto usando React, no qual desenvolvi uma página para listar todos os planetas do sistema solar e algumas missões espaciais mais conhecidas. Neste projeto apliquei meus conhecimentos básicos em React como props, componentes e composição de componentes</p>
+            <img src="solarSystem.png" alt="Captura de tela do Projeto 2"><br>
+            <a href="https://milena-cordeiro.github.io/solar-system/" target="_blank">Ver Projeto</a>
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </section>
+<hr>
+    <section id="technologies">
+        <h2>Tecnologias</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Jest</li>
+            <li>RTL</li>
+            <li>GitHub / Git</li>
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>MySQL</li>
+            <li>Docker</li>
+            <!-- Adicione mais tecnologias conforme necessário -->
+        </ul>
+    </section>
+<hr>
+    <section id="experience">
+        <h2>Experiência</h2>
+        <div class="job">
+            <h3>Castor Ferramentas para Pintura</h3>
+            <p>AGO 2019 - AGO 2021</p>
+            <p>Gestão de folha de pagamentos e beneficios e também recrutamento e seleção.</p>
+        </div>
+
+        <div class="job">
+            <h3>Anvi Comercio e Industria</h3>
+            <p>JUN 2018 - NOV 2018</p>
+            <p>Suporte Administrativo e controle de notas fiscais.</p>
+        </div>
+        <!-- Adicione mais experiências conforme necessário -->
+    </section>
+<hr>
+    <section id="education">
+        <h2>Educação</h2>
+        <div class="education">
+            <h3>Trybe</h3>
+            <p>JAN 2023 - até o momento</p>
+            <p>Curso de desenvolvimento web full stack.</p>
+        </div>
+
+        <div class="education">
+            <h3>Centro Universitário da FEI</h3>
+            <p>AGO 2017 - JUL 2021</p>
+            <p>Bacharelado em Administração</p>
+        </div>
+        <!-- Adicione mais formações acadêmicas conforme necessário -->
+    </section>
+<hr>
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Facilidade em aprender</li>
+            <li>Comunicação ativa</li>
+            <li>Gestão de tempo</li>
+            <li>Pensamento crítico</li>
+            <!-- Adicione mais habilidades conforme necessário -->
+        </ul>
+    </section>
+
+    <footer>
+        <h3>Contato</h3>
+        <ul>
+            <li>Email: mcs9823@gmail.com</li>
+            <li><a href="https://www.linkedin.com/in/milena-dev/" target="_blank" ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin-logo"></a></li>
+            <li><a href="https://github.com/milena-cordeiro" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github-icon"></a></li>
+            <!-- Adicione mais informações de contato conforme necessário -->
+        </ul>
+    </footer>
 </body>
 </html>
