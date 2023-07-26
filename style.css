@@ -2,12 +2,12 @@
 
 /* Estilos globais */
 
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: white;
-}
+} */
 
 h1, h2, h3 {
     color: #333;
@@ -31,7 +31,7 @@ header h2 {
     color: #666;
 }
 
-/* header img {
+/* img {
   width: 100%;
   max-width: 200px;
 } */
@@ -42,36 +42,29 @@ header h2 {
 }
 
 #projects {
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
 
 .project {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
 }
 
 .project h3 {
     font-size: 20px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     text-align: center;
 }
 
 .project p {
-    margin-top: 0;
+    /* margin-top: 0; */
     color: #666;
     text-align: center;
-    width: 100%;
-    max-width: 400px;
-}
-
-.project img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 10px;
+    /* width: 100%; */
+    /* max-width: 400px; */
 }
 
 /* Estilos das tecnologias */
@@ -153,11 +146,12 @@ header h2 {
 /* Estilos do rodapé */
 footer {
     background-color: #f2f2f2;
-    padding: 20px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 footer h3 {
+    color: #666;
     font-size: 20px;
     margin-bottom: 5px;
 }
@@ -169,5 +163,6 @@ footer ul {
 }
 
 footer li {
+    color: #f2f2f2;
     margin-bottom: 5px;
 }
